@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>escuela_de_codigo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+    <style>
+        body{
+    font-family: "liberations sans";
+    /*background-color: blueviolet;*/
+}
+header{
+    height: 50%;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    list-style: none;
+
+}
+
+.enlaces{
+    color: rgb(18, 83, 18);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.parte1{
+    height: 40vh;
+    background-image: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 3em 5em 5em 6em;
+
+}
+h1{
+    height: 100%;
+    display: grid;
+    grid-template-columns:  15% 20% 30% 35%  ;
+    grid-template-rows: repeat(3, 1fr);
+
+}
+h1 :nth-child(1){
+    height: 100%;
+    display: flex;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    align-items: center;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+h1 :nth-child(2){
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: end;
+    font-size: 55px;
+}
+h1 :nth-child(3){
+    height: 100%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: end;
+    font-family:"Liberation Sans";
+    font-weight: 800;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 80px;
+}
+h1 :nth-child(4){
+    height: 100% ;
+    grid-column: 3/4;
+    grid-row:3/4;
+    text-align: end;
+    font-size: 55px;
+}
+.parte2{
+    text-align: center;
+}
+.parte2 h2{
+    color: rgb(146, 146, 77);
+}
+.parte2 p{
+    font-size: 20px;
+}
+/*@media(max-width:900px){
+    body{
+        background-color: aqua;
+    }
+}*/
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg        
+            " alt="Gobierno de la Ciudad de México">
+           
+        </div>
+        <hr>
+      <nav>
+          <ul>
+              <li class="enlaces"><a href="">Residentes</a></li>
+              <li class="enlaces"> <a href="">Negocios</a></li>
+              <li class="enlaces"><a href="">Visitantes</a></li>
+              <li class="enlaces"> <a href="">Gobierno</a>  </li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+        <section class="parte1">
+            <h1>  <span><img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo
+		/dist/assets/hero-vector.svg" alt="escuela_codigo">  aprende a programar </span> <span>en las </span> 
+            <span> escuelas de código</span>
+            <span>de la cdmx </span> </h1>
+        </section>
+        <section class="parte2">
+            <h2>¿QUIEN SE PUEDE INSCRIBIR?</h2>
+            <p class="mensaje">
+             Cualquier persona que quiera aprender a programar código que que cuente
+		 con 4-8 horas disponibles a la semana. <br> 
+		<em> *Menores de edad deberán entrar a las instalaciones acompañados de un adulto</em>
+            </p>
+        </section>
+    </main>
+
